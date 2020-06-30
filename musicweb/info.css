@@ -1,0 +1,88 @@
+
+.box li{
+  text-align: center;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+form{
+  position: absolute;
+  left: 13%;
+}
+
+body{
+  color: white;
+  background: url(images/home5.jpg);
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.box{
+  background: url(images/background1.jpg);
+  background-repeat: no-repeat;
+  height: 60vh;
+  position: relative;
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  bottom: 100%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.box input[type = "text"] {
+  font-size: 17px;
+  color: white;
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box input[type = "submit"]:hover{
+  background: #2ecc71;
+}
+
+.box input[type = "file"]:hover{
+  background: #3498db;
+}
+
+.homebtn{
+  text-decoration: none;
+  position: relative;
+  size: 10px;
+  border:0;
+  background: none;
+  display: block;
+  margin: 68px auto;
+  text-align: center;
+  padding: 10px 24px;
+  outline: none;
+  color: white;
+  cursor: pointer;
+}
